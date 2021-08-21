@@ -1,0 +1,23 @@
+.listContainer{
+    background-color: #212121;
+    justify-content: start;
+    color: #fff;  
+  
+    
+}
+
+/* .b--action-primary{
+    border-color:  #424242 !important;
+    background-color: #424242 !important;
+} */
+
+.listItem :global(.vtex-button ) {
+    background-color: #212121 ;
+    border-color:  #212121;
+    color: #fff;
+}
+
+.listItemActive {
+    border-bottom: 2px solid #59FF00;
+    color: #59FF00; 
+}

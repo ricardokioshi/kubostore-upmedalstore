@@ -1,0 +1,465 @@
+{
+  "store.home": {
+    "blocks": [
+      "tab-layout#home"
+    ]
+  },
+  //---INICIO MENU CATEGORIA (TAB-LAYOUT)---
+  //https://vtex.io/docs/components/all/vtex.tab-layout@0.4.3/
+  "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "list-context.image-list#home",
+      "tab-content#home"
+    ]
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#promo",
+      "tab-list.item#cori",
+      "tab-list.item#pal",
+      "tab-list.item#signo",
+      "tab-list.item#div",
+      "tab-list.item#mara",
+      "tab-list.item#gue"
+    ]
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#promo",
+      "tab-content.item#cori",
+      "tab-content.item#pal",
+      "tab-content.item#signo",
+      "tab-content.item#div",
+      "tab-content.item#mara",
+      "tab-content.item#gue"
+    ]
+  },
+   //---TAB-LIST MENU---
+  "tab-list.item#promo": {
+    "props": {
+      "tabId": "promocao",
+      "label": "PROMOÇÃO",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#cori": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "Corinthians"
+    }
+  },
+  "tab-list.item#pal": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "Palmeiras"
+    }
+  },
+  "tab-list.item#signo": {
+    "props": {
+      "tabId": "signo",
+      "label": "Signos"
+    }
+  },
+  "tab-list.item#div": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "Divertidos"
+    }
+  },
+  "tab-list.item#mara": {
+    "props": {
+      "tabId": "7maravilhas",
+      "label": "7 Maravilhas"
+    }
+  },
+  "tab-list.item#gue": {
+    "props": {
+      "tabId": "guerreiros",
+      "label": "Guerreiros"
+    }
+  },
+  //---TAB-CONTENT MENU---
+  "tab-content.item#promo": {
+    "children": [
+      "list-context.product-list#promo"
+    ],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+  "tab-content.item#cori": {
+    "children": [
+      "list-context.product-list#cori"
+    ],
+    "props": {
+      "tabId": "corinthians"
+    }
+  },
+  "tab-content.item#pal": {
+    "children": [
+      "list-context.product-list#pal"
+    ],
+    "props": {
+      "tabId": "palmeiras"
+    }
+  },
+  "tab-content.item#signo": {
+    "children": [
+      "list-context.product-list#signo"
+    ],
+    "props": {
+      "tabId": "signo"
+    }
+  },
+  "tab-content.item#div": {
+    "children": [
+      "list-context.product-list#div"
+    ],
+    "props": {
+      "tabId": "divertidos"
+    }
+  },
+  "tab-content.item#mara": {
+    "children": [
+      "list-context.product-list#mara"
+    ],
+    "props": {
+      "tabId": "7maravilhas"
+    }
+  },
+  "tab-content.item#gue": {
+    "children": [
+      "list-context.product-list#gue"
+    ],
+    "props": {
+      "tabId": "guerreiros"
+    }
+  },
+  //---FIM MENU (TAB-LAYOUT)---
+  
+  /* INICIO SLIDER */
+  "list-context.image-list#home": {
+    "children": [
+      "slider-layout#home-images"
+    ],
+    "props": {
+      "height": 300,
+      "images": [
+        {
+          "src": "assets/BANNER-WOOD.png"
+          /* "mobileImage": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210820%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210820T154929Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ae0b14f13617816e32dddc4c99ba772a23a520f3cfb0c81cbf77ebcd211af88a" */
+        },
+        {
+          "src": "assets/BANNER-2.png"
+          /* "mobileImage": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210820%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210820T160015Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=6b64b196c1add3b48b11c144392b6ea0a60843274c0ad49eab5dd44638cdbde8" */
+        }
+      ]
+    }
+  },
+  "slider-layout#home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  /* FIM SLIDER */
+  
+  // Start Product Summary Shelf 
+  //https://vtex.io/docs/components/all/vtex.product-summary@2.74.1/product-summary-shelf/
+  //https://vtex.io/docs/components/all/vtex.product-price@1.25.0/
+  //---Categoria Promoção----
+  "list-context.product-list#promo": {
+    "blocks": [
+      "product-summary.shelf#promo"
+    ],
+    "children": [
+      "slider-layout#products#promo"
+    ],
+    "props": {
+      "category": "20/24",
+      "hideUnavailableItems": true,
+      "blockClass": "products"
+    }
+  },
+  "slider-layout#products#promo": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "products",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "product-summary.shelf#promo": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-selling-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "productsshelf"
+    }
+  },
+  //---Categoria Corinthians----
+  "list-context.product-list#cori": {
+    "blocks": [
+      "product-summary.shelf#cori"
+    ],
+    "children": [
+      "slider-layout#products#cori"
+    ],
+    "props": {
+      "category": "20/22",
+      "hideUnavailableItems": true,
+      "blockClass": "products"
+    }
+  },
+  "slider-layout#products#cori": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "products",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "product-summary.shelf#cori": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-selling-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "productsshelf"
+    }
+  },
+  //---Categoria Palmeiras----
+  "list-context.product-list#pal": {
+    "blocks": [
+      "product-summary.shelf#pal"
+    ],
+    "children": [
+      "slider-layout#products#pal"
+    ],
+    "props": {
+      "category": "20/23",
+      "hideUnavailableItems": true,
+      "blockClass": "products"
+    }
+  },
+  "slider-layout#products#pal": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "products",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "product-summary.shelf#pal": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-selling-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "productsshelf"
+    }
+  },
+  //---Categoria Signos----
+  "list-context.product-list#signo": {
+    "blocks": [
+      "product-summary.shelf#signo"
+    ],
+    "children": [
+      "slider-layout#products#signo"
+    ],
+    "props": {
+      "category": "20/21",
+      "hideUnavailableItems": true,
+      "blockClass": "products"
+    }
+  },
+  "slider-layout#products#signo": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "products",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "product-summary.shelf#signo": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-selling-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "productsshelf"
+    }
+  },
+  //---Categoria Divertidos----
+  "list-context.product-list#div": {
+    "blocks": [
+      "product-summary.shelf#div"
+    ],
+    "children": [
+      "slider-layout#products#div"
+    ],
+    "props": {
+      "category": "20/25",
+      "hideUnavailableItems": true,
+      "blockClass": "products"
+    }
+  },
+  "slider-layout#products#div": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "products",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "product-summary.shelf#div": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-selling-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "productsshelf"
+    }
+  },
+  //---Categoria 7Maravilhas----
+  "list-context.product-list#mara": {
+    "blocks": [
+      "product-summary.shelf#mara"
+    ],
+    "children": [
+      "slider-layout#products#mara"
+    ],
+    "props": {
+      "category": "20/26",
+      "hideUnavailableItems": true,
+      "blockClass": "products"
+    }
+  },
+  "slider-layout#products#mara": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "products",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "product-summary.shelf#mara": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-selling-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "productsshelf"
+    }
+  },
+  //---Categoria Guerreiros----
+  "list-context.product-list#gue": {
+    "blocks": [
+      "product-summary.shelf#gue"
+    ],
+    "children": [
+      "slider-layout#products#gue"
+    ],
+    "props": {
+      "category": "20/27",
+      "hideUnavailableItems": true,
+      "blockClass": "products"
+    }
+  },
+  "slider-layout#products#gue": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "products",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "product-summary.shelf#gue": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-selling-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "productsshelf"
+    }
+  }
+  //End Product Summary Shelf 
+}

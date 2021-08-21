@@ -1,0 +1,44 @@
+/* LOGO */
+.logoImage{
+    width: 146px;
+  }
+  
+  .menuItem {
+    background: rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  /* SEARCH */
+  .searchBarContainer {
+    width: 700px;
+  }
+  
+  .searchBarContainer :global(.vtex-input-prefix__group) {
+    border: 40px;
+    border-radius: 0;
+    border-bottom: thin solid white;
+  }
+  
+  .searchBarContainer :global(.vtex-input__suffix) {
+    background: transparent;
+  }
+  
+  .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    background: transparent;
+    color: #59ff00;
+  }
+  
+  .searchIcon {
+    color: #59ff00;
+  }
+  
+  /* SLIDER BANNER */
+   .imageElement {
+    width: 80% !important;
+    border-radius: 20px !important;
+  }
+  
+  
+  
+  
