@@ -12,7 +12,7 @@
       "tab-list#home",
       "list-context.image-list#home",
       "tab-content#home"
-      /* "flex-layout.row#deals" */
+       
     ]
   },
   "tab-list#home": {

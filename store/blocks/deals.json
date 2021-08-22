@@ -14,12 +14,13 @@
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1",
-      "rich-text#deal1"
+      "rich-text#deal1",
+      "whatsapp"
     ]
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "assets/login.png",
       "maxHeight": "24px"
     }
   },
@@ -37,7 +38,7 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
+      "src": "assets/trophy.png",
       "maxHeight": "24px"
     }
   },
@@ -55,7 +56,7 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
+      "src": "assets/cart.png",
       "maxHeight": "24px"
     }
   },
@@ -68,12 +69,12 @@
   "flex-layout.col#deals4": {
     "children": [
       "image#deal4",
-      "rich-text#deal4"
+      "whatsapp"
     ]
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
+      "src": "assets/whatsapp.png",
       "maxHeight": "24px"
     }
   },

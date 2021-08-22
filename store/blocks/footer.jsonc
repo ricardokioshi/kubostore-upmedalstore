@@ -4,6 +4,7 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "flex-layout.row#deals",
       "flex-layout.row#footer-3-desktop"
       
     ]
