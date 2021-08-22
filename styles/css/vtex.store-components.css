@@ -39,7 +39,13 @@
     border-radius: 20px !important;
   }
   
+  .productBrand {
+    color: #fff;
+  }
 
+  .sellingPrice {
+    color: #59ff00;
+  }
  /*  .container {
     background:blue;
     

@@ -202,7 +202,7 @@
       "slider-layout#products#promo"
     ],
     "props": {
-      "category": "20",
+      "category": "28",
       "hideUnavailableItems": true,
       "blockClass": "products"
     }
@@ -225,9 +225,9 @@
   },
   "product-summary.shelf#promo": {
     "children": [
-      "product-summary-name",
       "product-summary-image",
-      "product-selling-price",
+      "product-summary-name",
+      "product-summary-price",
       "product-summary-buy-button"
     ],
     "props": {
@@ -266,9 +266,9 @@
   },
   "product-summary.shelf#cori": {
     "children": [
-      "product-summary-name",
       "product-summary-image",
-      "product-selling-price",
+      "product-summary-name",
+      "product-summary-price",
       "product-summary-buy-button"
     ],
     "props": {
@@ -307,9 +307,9 @@
   },
   "product-summary.shelf#pal": {
     "children": [
-      "product-summary-name",
       "product-summary-image",
-      "product-selling-price",
+      "product-summary-name",
+      "product-summary-price",
       "product-summary-buy-button"
     ],
     "props": {
@@ -325,7 +325,7 @@
       "slider-layout#products#signo"
     ],
     "props": {
-      "category": "28/41/44",
+      "category": "20/21",
       "hideUnavailableItems": true,
       "blockClass": "products"
     }
@@ -348,9 +348,9 @@
   },
   "product-summary.shelf#signo": {
     "children": [
-      "product-summary-name",
       "product-summary-image",
-      "product-selling-price",
+      "product-summary-name",
+      "product-summary-price",
       "product-summary-buy-button"
     ],
     "props": {
@@ -366,7 +366,7 @@
       "slider-layout#products#div"
     ],
     "props": {
-      "category": "20/25",
+      "category": "20",
       "hideUnavailableItems": true,
       "blockClass": "products"
     }
@@ -389,9 +389,9 @@
   },
   "product-summary.shelf#div": {
     "children": [
-      "product-summary-name",
       "product-summary-image",
-      "product-selling-price",
+      "product-summary-name",
+      "product-summary-price",
       "product-summary-buy-button"
     ],
     "props": {
@@ -407,7 +407,7 @@
       "slider-layout#products#mara"
     ],
     "props": {
-      "category": "20/26",
+      "category": "28/41",
       "hideUnavailableItems": true,
       "blockClass": "products"
     }
@@ -430,9 +430,9 @@
   },
   "product-summary.shelf#mara": {
     "children": [
-      "product-summary-name",
       "product-summary-image",
-      "product-selling-price",
+      "product-summary-name",
+      "product-summary-price",
       "product-summary-buy-button"
     ],
     "props": {
@@ -471,9 +471,9 @@
   },
   "product-summary.shelf#gue": {
     "children": [
-      "product-summary-name",
       "product-summary-image",
-      "product-selling-price",
+      "product-summary-name",
+      "product-summary-price",
       "product-summary-buy-button"
     ],
     "props": {
@@ -515,8 +515,6 @@
       "children": [
               "product-summary-image",
               "product-summary-name",
-              "product-rating-inline",
-              "product-summary-space",
               "product-summary-price",
               "product-summary-buy-button"
       ],

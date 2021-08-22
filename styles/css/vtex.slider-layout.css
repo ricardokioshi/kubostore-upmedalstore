@@ -22,7 +22,13 @@
     overflow: hidden;
     position: relative;
     border-radius: 50px;
-    margin: 80px;
+    margin: 90px;
     color: #59ff00;
     background: #212121;
 }
+
+.paginationDotsContainer  {
+    margin: 40px;
+    color: #59ff00;
+}
+
