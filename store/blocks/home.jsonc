@@ -23,7 +23,8 @@
       "tab-list.item#signo",
       "tab-list.item#div",
       "tab-list.item#mara",
-      "tab-list.item#gue"
+      "tab-list.item#gue",
+      "tab-list.item#loja"
     ]
   },
   "tab-content#home": {
@@ -34,7 +35,8 @@
       "tab-content.item#signo",
       "tab-content.item#div",
       "tab-content.item#mara",
-      "tab-content.item#gue"
+      "tab-content.item#gue",
+      "tab-content.item#loja"
     ]
   },
    //---TAB-LIST MENU---
@@ -81,6 +83,13 @@
       "label": "Guerreiros"
     }
   },
+  "tab-list.item#loja": {
+    "props": {
+      "tabId": "loja",
+      "label": "loja"
+    }
+  },
+
   //---TAB-CONTENT MENU---
   "tab-content.item#promo": {
     "children": [
@@ -138,6 +147,14 @@
       "tabId": "guerreiros"
     }
   },
+  "tab-content.item#loja": {
+    "children": [
+      "list-context.product-list#loja"
+    ],
+    "props": {
+      "tabId": "loja"
+    }
+  },
   //---FIM MENU (TAB-LAYOUT)---
   
   /* INICIO SLIDER */
@@ -185,7 +202,7 @@
       "slider-layout#products#promo"
     ],
     "props": {
-      "category": "20/24",
+      "category": "20",
       "hideUnavailableItems": true,
       "blockClass": "products"
     }
@@ -308,7 +325,7 @@
       "slider-layout#products#signo"
     ],
     "props": {
-      "category": "20/21",
+      "category": "28/41/44",
       "hideUnavailableItems": true,
       "blockClass": "products"
     }
@@ -462,6 +479,48 @@
     "props": {
       "blockClass": "productsshelf"
     }
-  }
+  },
+
+    //---Categoria Loja----
+    "list-context.product-list#loja": {
+      "blocks": [
+        "product-summary.shelf#loja"
+      ],
+      "children": [
+        "slider-layout#products#loja"
+      ],
+      "props": {
+        "category": "28",
+        "hideUnavailableItems": true,
+        "blockClass": "products"
+      }
+    },
+    "slider-layout#products#loja": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 2,
+          "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "false",
+        "blockClass": "products",
+        "autoplay": {
+          "timeout": 5000,
+          "stopOnHover": true
+        }
+      }
+    },
+    "product-summary.shelf#loja": {
+      "children": [
+        "product-summary-name",
+        "product-summary-image",
+        "product-selling-price",
+        "product-summary-buy-button"
+      ],
+      "props": {
+        "blockClass": "productsshelf"
+      }
+    }
   //End Product Summary Shelf 
 }
