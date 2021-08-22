@@ -1,6 +1,8 @@
 .slideChildrenContainer--carousel{
     background: #212121;
+    width:100%;
 }
+
 
 .caretIcon--carousel {
     width: 50%;

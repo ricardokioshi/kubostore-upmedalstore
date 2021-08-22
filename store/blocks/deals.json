@@ -13,8 +13,7 @@
 
   "flex-layout.col#deals1": {
     "children": [
-      "image#deal1",
-      "rich-text#deal1",
+      "image#deal1",      
       "whatsapp"
     ]
   },
@@ -51,7 +50,7 @@
   "flex-layout.col#deals3": {
     "children": [
       "image#deal3",
-      "rich-text#deal3"
+      "loja"
     ]
   },
   "image#deal3": {

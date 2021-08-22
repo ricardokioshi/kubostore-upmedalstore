@@ -11,7 +11,7 @@
   },
 
   "flex-layout.row#footer-3-desktop": {
-    "children": [ "whatsapp", "whatsapp", "whatsapp", "whatsapp"],
+    "children": [ "whatsapp", "whatsapp", "loja", "whatsapp"],
     "props": {
       "blockClass": "credits"
     }
@@ -36,7 +36,7 @@
     "children": [
       "whatsapp",
       "whatsapp",
-      "whatsapp",
+      "loja",
       "whatsapp"
     ],
     "props": {
