@@ -13,14 +13,14 @@
 
   "flex-layout.col#deals1": {
     "children": [
-      "image#deal1",      
-      "whatsapp"
+      "image#deal1"
+     
     ]
   },
   "image#deal1": {
     "props": {
       "src": "assets/login.png",
-      "maxHeight": "24px"
+      "maxHeight": "50px"
     }
   },
   "rich-text#deal1": {
@@ -31,14 +31,14 @@
   },
   "flex-layout.col#deals2": {
     "children": [
-      "image#deal2",
-      "rich-text#deal2"
+      "image#deal2"
+      
     ]
   },
   "image#deal2": {
     "props": {
       "src": "assets/trophy.png",
-      "maxHeight": "24px"
+      "maxHeight": "50px"
     }
   },
   "rich-text#deal2": {
@@ -56,7 +56,7 @@
   "image#deal3": {
     "props": {
       "src": "assets/cart.png",
-      "maxHeight": "24px"
+      "maxHeight": "50px"
     }
   },
   "rich-text#deal3": {
@@ -74,7 +74,7 @@
   "image#deal4": {
     "props": {
       "src": "assets/whatsapp.png",
-      "maxHeight": "24px"
+      "maxHeight": "50px"
     }
   },
   "rich-text#deal4": {

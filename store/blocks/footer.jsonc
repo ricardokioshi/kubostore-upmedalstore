@@ -11,7 +11,7 @@
   },
 
   "flex-layout.row#footer-3-desktop": {
-    "children": [ "whatsapp", "whatsapp", "loja", "whatsapp"],
+    "children": [ "login", "whatsapp", "loja", "whatsapp"],
     "props": {
       "blockClass": "credits"
     }
@@ -27,20 +27,20 @@
   "flex-layout.row#2-footer-mobile": {
     "children": ["flex-layout.col#footer-1-mobile"],
     "props": {
-      "blockClass": "payment-methods",
+      "blockClass": "footer-methods",
       "paddingTop": 4,
       "paddingBottom": 4
     }
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "whatsapp",
+      "login",
       "whatsapp",
       "loja",
       "whatsapp"
     ],
     "props": {
-      "blockClass": "payment-methods",
+      "blockClass": "footer-methods",
       "paddingTop": 4,
       "paddingBottom": 4,
       "rowGap": 4
