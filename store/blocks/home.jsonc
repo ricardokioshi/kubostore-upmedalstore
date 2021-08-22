@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "tab-layout#home"
+      
     ]
   },
   //---INICIO MENU CATEGORIA (TAB-LAYOUT)---
@@ -11,6 +12,7 @@
       "tab-list#home",
       "list-context.image-list#home",
       "tab-content#home"
+      /* "flex-layout.row#deals" */
     ]
   },
   "tab-list#home": {

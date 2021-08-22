@@ -4,25 +4,10 @@
   },
   "footer-layout.desktop": {
     "children": [
-    
-      "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
+      
     ]
   },
-
-
-
-  "flex-layout.row#footer-2-desktop": {
-    "children": [
-      
-      /* "accepted-payment-methods" */
-      
-    ],
-    "props": {
-      "blockClass": "payment-methods"
-    }
-  },
-
 
   "flex-layout.row#footer-3-desktop": {
     "children": [ "whatsapp", "whatsapp", "whatsapp", "whatsapp"],

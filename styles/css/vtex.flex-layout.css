@@ -2,3 +2,7 @@
     background: #212121;
 }
 
+.flexRow--deals{
+    background:red;
+    position: relative;
+}
