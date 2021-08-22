@@ -3,11 +3,28 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "flex-layout.row#product-main"
+      "flex-layout.row#product-main",
+      "flex-layout.row#form"
     ]
   },
 
-  
+  "flex-layout.row#form": {
+    "children": [
+      "flex-layout.col#form"
+    ]
+  },
+  "flex-layout.col#form": {
+    "children": [
+      "form"
+    ]
+  },
+  "form": {
+    "props": {
+      "entity": "clients",
+      "schema": "person"
+    }
+  },
+
 
   "flex-layout.row#product-breadcrumb": {
     "props": {
