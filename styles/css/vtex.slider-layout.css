@@ -1,6 +1,13 @@
 .slideChildrenContainer--carousel{
     background: #212121;
-    width:100%;
+    max-width:100%;
+}
+.sliderLayoutContainer--carousel{
+    background: #212121;
+}
+
+.slideChildrenContainer--products{
+    margin: 80px;
 }
 
 
@@ -17,4 +24,5 @@
     border-radius: 50px;
     margin: 80px;
     color: #59ff00;
+    background: #212121;
 }

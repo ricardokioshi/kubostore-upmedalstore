@@ -6,6 +6,9 @@
       "flex-layout.row#product-main"
     ]
   },
+
+  
+
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 20
