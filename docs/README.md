@@ -7,12 +7,9 @@ https://github.com/ricardokioshi/kubostore-upmedalstore
 https://github.com/ricardokioshi/kubostore-react-upmedelstore
 
 ### Template de proposto
-● Criar a solução a partir de um boiler template padrão da Vtex IO
-Layout
-● Observação - A réplica não precisa ser uma cópia fiel deste layout mas tentar
-se aproximar o máximo que conseguir
-● Utilizar o Markdown + o css para formatação -
-https://pt.wikipedia.org/wiki/Markdown
+● Criar a solução a partir de um boiler template padrão da Vtex IO Layout
+● Observação - A réplica não precisa ser uma cópia fiel deste layout mas tentar se aproximar o máximo que conseguir
+● Utilizar o Markdown + o css para formatação -https://pt.wikipedia.org/wiki/Markdown
 ![alt text](https://github.com/ricardokioshi/kubostore-upmedalstore/blob/main/assets/upmedal.PNG)
 
 ### Template entregue
