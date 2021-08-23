@@ -13,18 +13,18 @@ Layout
 se aproximar o máximo que conseguir
 ● Utilizar o Markdown + o css para formatação -
 https://pt.wikipedia.org/wiki/Markdown
-![alt text](assets/upmedal.png)
+![alt text](https://github.com/ricardokioshi/kubostore-upmedalstore/blob/main/assets/upmedal.PNG)
 
 ### Template entregue
 https://upmedalstore--hiringcoders2021.myvtex.com
 
 #### Desktop
-![alt text](assets/1.png) 
-![alt text](assets/mobile2.png)
+![alt text](https://github.com/ricardokioshi/kubostore-upmedalstore/blob/main/assets/1.PNG)
+![alt text](https://github.com/ricardokioshi/kubostore-upmedalstore/blob/main/assets/2.PNG)
 
 #### Mobile
-![alt text](assets/mobile1.png)
-![alt text](assets/mobile2.png)
+![alt text](https://github.com/ricardokioshi/kubostore-upmedalstore/blob/main/assets/mobile1.PNG)
+![alt text](https://github.com/ricardokioshi/kubostore-upmedalstore/blob/main/assets/mobile2.PNG)
 
 
 ### Principais Tecnologias utilizadas:
